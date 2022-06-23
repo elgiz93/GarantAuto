@@ -105,6 +105,7 @@
 }
 
 @media (max-width: 576px) {
+    
     .content_3Rl6X {
         margin: 20px 12px 32px
     }
@@ -418,6 +419,7 @@
 }
 
 @media (max-width: 575px) {
+    
     .row_ea1Jl {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -564,7 +566,22 @@
     align-items: center;
     margin-top: -7px
 }
-
+@media (max-width: 972px) {
+    .phone_number{
+        display: none;
+    }
+}
+@media (max-width: 385px) {
+    .socialLink_v1m4R{
+        display: none;
+    }
+}
+@media (min-width: 973px) {
+    .phone_number{
+        padding-right: 5px;
+        display: block;
+    }
+}
 @media (max-width: 767px) {
     .form_wfrUU {
         -webkit-box-orient: vertical;
@@ -1346,6 +1363,8 @@
 }
 
 .topBarContent_OdVmH {
+    display: flex;
+    margin-right: auto;
     margin-left: auto;
     line-height: 24px
 }
@@ -1355,6 +1374,7 @@
 }
 
 .topBarContent_OdVmH a {
+    margin-left: 5px;
     color: #525252
 }
 

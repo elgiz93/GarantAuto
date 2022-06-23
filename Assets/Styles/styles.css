@@ -9688,6 +9688,7 @@ form:not(.ant-form-vertical) .ant-input-group-wrapper {
   margin-bottom: -4px;
 }
 @media (max-width: 575px) {
+  
   .ant-form-item-label,
   .ant-form-item-control-wrapper {
     display: block;
@@ -9717,6 +9718,7 @@ form:not(.ant-form-vertical) .ant-input-group-wrapper {
   }
 }
 @media (max-width: 767px) {
+  
   .ant-col-sm-24.ant-form-item-label {
     display: block;
     margin: 0;
@@ -9730,6 +9732,7 @@ form:not(.ant-form-vertical) .ant-input-group-wrapper {
   }
 }
 @media (max-width: 991px) {
+ 
   .ant-col-md-24.ant-form-item-label {
     display: block;
     margin: 0;
